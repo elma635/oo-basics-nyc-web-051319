@@ -9,32 +9,32 @@ end
 def title
   @title
 end
-
-#setter method, how setter should look
-def author=(author)
-  @author = author
-end
-
-#have to set getter so bc getter & setters come in pairs
-def author
-  @author
-  end
-
-  def page_count=(num)
-    @page_count = num
-  end
-
-def page_count
-  @page_count
-end
-
-def genre=(genre)
-  @genre = genre
-end
-
-def genre
-  @genre
-end
+# All this gets commented out bc we set attr attr_accessor for our setters & getters under our class methods
+# #setter method, how setter should look
+# def author=(author)
+#   @author = author
+# end
+#
+# #have to set getter so bc getter & setters come in pairs
+# def author
+#   @author
+#   end
+#
+#   def page_count=(num)
+#     @page_count = num
+#   end
+#
+# def page_count
+#   @page_count
+# end
+#
+# def genre=(genre)
+#   @genre = genre
+# end
+#
+# def genre
+#   @genre
+# end
 
 def turn_page
   puts "Flipping the page...wow, you read fast!"
