@@ -11,12 +11,4 @@ def cobble
   #@ is set so that when as for the condition, it displays new
 end
 
-
-
-
-
-
-
-
-
 end
